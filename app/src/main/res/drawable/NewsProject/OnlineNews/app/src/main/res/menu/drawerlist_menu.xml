@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/addnotice"
+        android:title="View Result"></item>
+
+    <item
+        android:id="@+id/viewmipost"
+        android:title="View Academic Report"></item>
+    <item
+        android:id="@+id/passwordchange"
+        android:title="View Exam" />
+    <item
+        android:id="@+id/profile"
+        android:title="View Health Status" />
+    <item
+        android:id="@+id/contact"
+        android:title="View Discipline Status" />
+    <item
+        android:id="@+id/aboutus"
+        android:title="View Notice" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.newsproj.newsproject.NewsDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:id="@+id/imgIcon"
+                    android:layout_width="120dp"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/newslauncher"
+                    android:layout_height="120dp" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_toRightOf="@+id/imgIcon"
+                    android:layout_marginLeft="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/pubat"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/imgIcon"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/pby"
+                    android:layout_below="@+id/pubat"
+                    android:layout_toRightOf="@+id/imgIcon"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/sdesc"
+                    android:layout_below="@+id/imgIcon"
+                    android:layout_toRightOf="@+id/imgIcon"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_below="@+id/sdesc"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+</LinearLayout>
